@@ -14,7 +14,6 @@ class MP3Importer
         all_files << file
       end
     end
-    @@music_files << all_files
     all_files
   end
 
