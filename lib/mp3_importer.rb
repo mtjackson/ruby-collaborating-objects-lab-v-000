@@ -7,7 +7,9 @@ class MP3Importer
   end
 
   def files
+    all_files = []
     Dir.entries(@path)
+    if 
   end
 
   def import(files)
