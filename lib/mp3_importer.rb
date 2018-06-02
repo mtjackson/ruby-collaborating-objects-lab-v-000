@@ -10,7 +10,7 @@ class MP3Importer
     all_files = []
 
     Dir.entries(@path).each do |file|
-      if file.
+      if file.split(" - ")
   end
 
   def import(files)
