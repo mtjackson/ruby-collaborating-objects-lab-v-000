@@ -36,8 +36,8 @@ class Artist
       return self.find_by_name(name)
     else
       artist = Artist.new(name)
+      @@all << self
     end
-    self.save
   end
 
   def print_songs
