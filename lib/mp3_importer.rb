@@ -8,8 +8,9 @@ class MP3Importer
 
   def files
     all_files = []
-    Dir.entries(@path)
-    if 
+
+    Dir.entries(@path).each do |file|
+      if file.
   end
 
   def import(files)
