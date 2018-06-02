@@ -17,6 +17,7 @@ class MP3Importer
       end
     end
     @@music_files << all_files
+    all_files
   end
 
   def import(files)
