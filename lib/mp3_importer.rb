@@ -11,6 +11,8 @@ class MP3Importer
 
     Dir.entries(@path).each do |file|
       if file.split(".").include?("mp3")
+        all_files << file
+      end
   end
 
   def import(files)
