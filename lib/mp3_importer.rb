@@ -13,6 +13,7 @@ class MP3Importer
       if file.split(".").include?("mp3")
         all_files << file
       end
+      all_files
   end
 
   def import(files)
